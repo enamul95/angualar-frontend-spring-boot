@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angualar-frontend-spring-boot"
+    }
+  },
+  "defaultProject": "angualar-frontend-spring-boot",
+  "cli": {
+    "analytics": "e5e5f4c8-387a-4503-8a11-82c24c0c54cc"
+  }
 }

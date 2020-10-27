@@ -4,7 +4,7 @@ export class  Todo{
 
   constructor(
     public id:number,
-    public descriptions:String,
+    public description:String,
     public done:boolean,
     public targetDate:Date
   ){

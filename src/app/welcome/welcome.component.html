@@ -1,11 +1,21 @@
 <div>
 Welcome {{username}}. 
 
-
-
 Welcome to a awsome app.
 </div>
 
 <div>
 You can manage your todos from <a routerLink="/todos">here</a>
+</div>
+<div class="container">
+    Click here to get customize welcome Message
+    <button (click) = "getWelcomeMessage()" class="btn btn-success"> Get Welcome Message</button>
+
+</div>
+
+<div class="container" *ngIf="nameFromServe">
+   get Data from Service<br>
+   <h> Name : {{nameFromServe}}</h><br>
+   <h> phone : {{phoneFromServe}}</h><br>
+   <h> address : {{addressFromServe}}</h>
 </div>
